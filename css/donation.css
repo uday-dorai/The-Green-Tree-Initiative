@@ -1,0 +1,655 @@
+
+@font-face {
+    font-family: "Flood";
+    src: url(../Fonts/FloodStd.otf);
+    font-style: normal;
+    font-weight: normal;
+  }
+
+body {
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+    font-weight: normal;
+    letter-spacing: 0;
+    color: #354463;
+    font-size: 1.5vw;
+    text-align: left;
+}
+main {
+    width: 100%;
+    padding: 7% 0% 7% 0%;
+    background-image: url('../img/donation/annie-spratt-427340-unsplash.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+@media (min-width: 991px) and (max-width: 1440px){
+
+    header {
+        width: 100%;
+        margin-bottom: 3%;
+        margin-top: 3%;
+    }
+
+    .header1 {
+        text-align: center;
+        font: Bold 2vw Helvetica;
+    }
+
+    .container {
+        margin: 0 6% 0 6%;
+        width: 88%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+
+    .sec2 {
+        width: 30%;
+        font-family: flood;
+        font-size: 4vw;
+        color: white;
+    }
+
+    .formBox {
+        width: 48%;
+        background-color: #354463;
+        padding: 2.5vw 5vw 2vw 5vw;
+        height: 60vw;
+    }
+
+
+    form {
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 2%;
+    }
+
+    .info {
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }
+
+    .info-head {
+        width: 100%;
+        font: Bold 1.4vw Helvetica;
+        color: #FFFFFF;
+    }
+
+    .fname {
+        width: 45%;
+        margin-bottom: 1vw;
+        font: normal 80% Helvetica;
+        color: #FFFFFF;
+    }
+
+    .fsec_2 {
+        width: 100%;
+        margin-bottom: 1.5vw;
+        font: normal 80% Helvetica;
+        color: #FFFFFF;
+
+    }
+
+    .place {
+        width: 17.5%;
+        font: normal 80% Helvetica;
+        color: #FFFFFF;
+    }
+
+    .expire {
+        width: 30%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        font: normal 80% Helvetica;
+        color: #FFFFFF;
+    }
+
+    .code {
+        width: 30%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-start;
+        font: normal 80% Helvetica;
+        color: #FFFFFF;
+    }
+
+    input {
+        border: none;
+        background: #354463;
+        border-bottom: 0.2vw solid #C1F7D5;
+        padding-top: 0.5vw;
+        padding-bottom: 0.5vw;
+        color: #FFFFFF;
+        opacity: 0.8;
+    }
+
+    select {
+        border: none;
+        background: #354463;
+        border-bottom: .2vw solid #C1F7D5;
+        padding-top: 0.5vw;
+        padding-bottom: 0.5vw;
+        color: #C1F7D5;
+    }
+
+    label {
+        width: 100%;
+        font-size: 1.1vw;
+    }
+
+    .input1 {
+        width: 100%;
+    }
+
+    .input2 {
+        width: 43%;
+    }
+    .click_msg{
+        font-size: 2vw;
+    }
+
+    .payment {
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+
+    .back {
+        color: #C1F7D5;
+        font-size: 1.4vw;
+    }
+
+    .donate_button {
+        width: 41%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .p_button {
+        width: 14vw;
+        background: #C1F7D5 0% 0% no-repeat padding-box;
+        border-radius: 100px;
+        text-decoration: none;
+        text-align: center;
+        font: Bold 1.4vw Helvetica;
+        color: #354463;
+    }
+
+    .footer_box{
+        padding: 3% 0% 3% 0%;
+    }
+
+    footer {
+        width: 100%;
+        margin-bottom: 3vw;
+        padding-top: 2vw;
+    }
+
+    .fheader {
+        width: 20%;
+        height: 100%;
+        font-size: 1.5vw;
+        text-align: left;
+    }
+
+    .fhead {
+        width: 20%;
+        height: auto;
+        align-content: center;
+        font: normal 1.2vw Helvetica;
+    }
+
+
+    .links {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .change {
+        width: 20%;
+        font-family: flood;
+        font-size: 3vw;
+        text-align: end;
+    }
+
+}
+
+
+/* ******************************************************** tablet ************************************************ */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    header {
+        width: 100%;
+        margin-bottom: 3%;
+        margin-top: 3%;
+    }
+
+    .header1 {
+        text-align: center;
+        font: Bold 2vw Helvetica;
+    }
+
+    .container {
+        margin: 0 6% 0 6%;
+        width: 88%;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+    }
+
+    .sec2 {
+        width: 80%;
+        margin-left: 10%;
+        text-align: center;
+        font-family: flood;
+        font-size: 6vw;
+        color: white;
+    }
+
+    .formBox {
+        width: 80%;
+        background-color: #354463;
+        margin-left: 5%;
+        padding: 5%;
+        height: 75vw;
+    }
+
+
+    form {
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 3%;
+    }
+
+    .info {
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }
+
+    .info-head {
+        width: 100%;
+        font: Bold 1.5vw Helvetica;
+        color: #FFFFFF;
+        margin-bottom: 0%;
+    }
+
+    .fname {
+        /* line-height: 15px; */
+        width: 45%;
+        margin-bottom: 1.5vw;
+        font: normal 80% Helvetica;
+        color: #FFFFFF;
+    }
+
+    .fsec_2 {
+        width: 100%;
+        margin-bottom: 1.5vw;
+        font: normal 80% Helvetica;
+        color: #FFFFFF;
+
+    }
+
+    .place {
+        width: 17.5%;
+        font: normal 80% Helvetica;
+        color: #FFFFFF;
+    }
+
+    .expire {
+        width: 30%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        font: normal 80% Helvetica;
+        color: #FFFFFF;
+    }
+
+    .code {
+        width: 30%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-start;
+        font: normal 80% Helvetica;
+        color: #FFFFFF;
+    }
+
+    input {
+        border: none;
+        background: #354463;
+        border-bottom: 0.2vw solid #C1F7D5;
+        padding-top: 0.5vw;
+        padding-bottom: 0.5vw;
+        color: #FFFFFF;
+        opacity: 0.8;
+    }
+
+    select {
+        border: none;
+        background: #354463;
+        border-bottom: .2vw solid #C1F7D5;
+        padding-top: 0.5vw;
+        padding-bottom: 0.5vw;
+        color: #C1F7D5;
+    }
+
+    label {
+        
+        width: 100%;
+        font-size: 1.5vw;
+    }
+
+    .input1 {
+        width: 100%;
+    }
+
+    .input2 {
+        width: 43%;
+    }
+    .click_msg{
+        font-size: 3.2vw;
+        margin-left: 5%;
+    }
+
+    .payment {
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+
+    .back {
+        color: #C1F7D5;
+        font-size: 1.4vw;
+        margin-left: 12%;
+    }
+
+    .donate_button {
+        width: 41%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .p_button {
+        width: 14vw;
+        background: #C1F7D5 0% 0% no-repeat padding-box;
+        border-radius: 100px;
+        text-decoration: none;
+        text-align: center;
+        font: Bold 1.4vw Helvetica;
+        color: #354463;
+    }
+    
+    footer {
+        width: 100%;
+        margin-bottom: 3vw;
+        padding-top: 2vw;
+    }
+
+    .footer_box{
+        width: 80%;
+        margin-bottom: 3vw;
+        padding-top: 2vw;
+        display: flex;
+        flex-flow: initial;
+        flex-wrap: wrap;
+    }
+    .fheader {
+        width: 50%;
+        height: 100%;
+        font-size: 3vw;
+        text-align: left;
+        margin-top: 10%;
+    }
+    .fhead {
+        width: 25%;
+        height: auto;
+        align-content: center;
+        font: normal 1.8vw Helvetica;
+    }
+    .learn{
+
+        margin-left: 48%;
+    }
+    .links {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .change {
+        margin-top: 3%;
+        right: 30%;
+        width: 20%;
+        font-family: flood;
+        font-size: 3vw;
+    }
+    
+
+    
+}
+
+
+/*****************************************************mobile*****************************************************/
+
+
+
+@media/* screen and */(max-width: 767px) {
+
+    header {
+        width: 100%;
+       padding: 2% 0% 2% 0%;
+    }
+
+    .header1 {
+        text-align: center;
+        font: Bold 2vw Helvetica;
+    }
+
+    .container {
+        margin: 0 6% 0 6%;
+        width: 88%;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+    }
+
+    .sec2 {
+        width: 80%;
+        margin-left: 10%;
+        text-align: center;
+        font-family: flood;
+        font-size: 6vw;
+        color: white;
+    }
+
+    .formBox {
+        width: 80%;
+        background-color: #354463;
+        padding: 10%;
+        height: 110vw;
+    }
+
+
+    form {
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 4%;
+    }
+
+    .info {
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }
+    .info-head {
+        width: 100%;
+        font: Bold 2.3vw Helvetica;
+        color: #FFFFFF;
+        margin-bottom: 0%;
+    }
+
+    .fname {
+        width: 45%;
+        margin-bottom: 4vw;
+        font: normal 110% Helvetica;
+        color: #FFFFFF;
+    }
+
+    .fsec_2 {
+        width: 100%;
+        margin-bottom: 3vw;
+        font: normal 80% Helvetica;
+        color: #FFFFFF;
+
+    }
+
+    .place {
+        width: 17.5%;
+        font: normal 80% Helvetica;
+        color: #FFFFFF;
+    }
+
+    .expire {
+        width: 30%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        font: normal 80% Helvetica;
+        color: #FFFFFF;
+    }
+
+    .code {
+        width: 30%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-start;
+        font: normal 80% Helvetica;
+        color: #FFFFFF;
+    }
+
+    input {
+        border: none;
+        background: #354463;
+        border-bottom: 0.2vw solid #C1F7D5;
+        padding-top: 0.5vw;
+        padding-bottom: 0.5vw;
+        color: #FFFFFF;
+        opacity: 0.8;
+    }
+
+    select {
+        border: none;
+        background: #354463;
+        border-bottom: .2vw solid #C1F7D5;
+        padding-top: 0.5vw;
+        padding-bottom: 0.5vw;
+        color: #C1F7D5;
+    }
+
+    label {
+        width: 100%;
+        font-size: 2.3vw;
+    }
+
+    .input1 {
+        width: 100%;
+        font-size: 2.2vw;
+    }
+
+    .input2 {
+        width: 43%;
+        font-size: 2.2vw;
+    }
+    .click_msg{
+        font-size: 3.2vw;
+    }
+
+    .payment {
+        width: 100%;
+    }
+    .donate_button {
+        display: flex;
+        align-items: center;
+        margin-left: 20%;
+    }
+    .back {
+        position: relative;
+        color: #C1F7D5;
+        font-size: 2vw;
+        top: 3.5rem;
+    }
+
+    
+
+    .p_button {
+        width: 30vw;
+        background: #C1F7D5 0% 0% no-repeat padding-box;
+        border-radius: 100px;
+        text-decoration: none;
+        text-align: center;
+        font: Bold 1.4vw Helvetica;
+        color: #354463;
+    }
+
+    footer {
+        width: 100%;
+        /* margin-bottom: 3vw;
+        padding-top: 2vw; */
+    }
+
+     .footer_box{
+        width: 80%;
+        margin-left: 20%;
+        margin-bottom: 3vw;
+        padding-top: 3%;
+        display: flex;
+        flex-flow: initial;
+        flex-wrap: wrap;
+    }
+    .fheader {
+        width: 50%;
+        height: 100%;
+        font-size: 3vw;
+        text-align: left;
+        /* margin-top: 10%; */
+    }
+    .fhead {
+        width: 50%;
+        height: auto;
+        align-content: center;
+        font: normal 2.2vw Helvetica;
+        margin-bottom: 3%;
+    }
+
+    .fhead p{
+        font-size: 2vw;
+    }
+    .links {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .change {
+        position: relative;
+        left: 6rem;
+        width: 30%;
+        text-align: right;
+        font-family: flood;
+        font-size: 6vw;
+    }
+    
+
+
+    
+}

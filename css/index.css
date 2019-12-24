@@ -1,0 +1,1943 @@
+.container {
+    margin: 0 6% 0 6%;
+    width: 88%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+@media (min-width: 991px) and (max-width: 1440px){
+    @font-face {
+        font-family: "Flood";
+        src: url(../Fonts/FloodStd.otf);
+        font-style: normal;
+        font-weight: normal;
+      }
+    body{
+        font-family: Helvetica, sans-serif;
+        font-weight: normal;
+        letter-spacing: 0;
+        color: #354463;
+        opacity: 1;
+        text-align: left;
+    }
+    
+    #header_1{
+        display: grid;
+        grid-template-columns: 80% 20%;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+    }
+    
+    .header_flex{
+        display: grid;
+        grid-template-columns: 40% 60%;
+        grid-template-areas: "div1 div2 div2 div2 div2";
+        padding-top: 2%; 
+    }
+    
+    .logo_head{
+        font-size: 1.3rem;
+        font-weight: bold;
+        padding: 0% 0% 0% 30%;
+    }
+    .navi{
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        padding: 7% 0% 9% 5%;
+    }
+    
+    .navi a{
+        text-decoration: none;
+        font-size: 1.5vw;
+    }
+    .donation{
+        grid-area: div3;
+        width: 52%;
+        height: 35%;
+        background:#C1F7D5 0% 0% no-repeat padding-box;
+        border-radius: 2rem;
+        margin-left: 2%;
+        }
+    .donation p{
+        text-align: center;
+        margin-top: 40%;
+        font-weight: bold;
+        font-size: 1.2vw;
+        padding-top: 0.6rem ;
+        padding-bottom: 0.5rem;
+    }
+    #header_1 a{
+        text-decoration: none;
+    }
+    
+    
+    .imgg{
+        background-image: url('../img/home/annie-spratt-135307-unsplash.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        padding-top: 8%; 
+        padding-bottom: 12%;
+        position: relative;
+    }
+    
+    .box1{
+        width: 60%;
+        height: 80%;
+        background: #FFFFFF;
+        margin-left: 20%;
+        padding-right: 1%;
+        margin-top: 10%;
+    }
+    
+    
+    .issue{
+        position: relative;
+        left: 15%;
+        bottom:9%;
+        width: 30%;
+        height: auto;
+        background: #354463 0% 0% no-repeat padding-box;
+    }
+    .issue_p{
+        margin-left: 10%;
+        padding:8%;
+        font: normal 1.1vw Helvetica;
+        color: #FFFFFF; 
+    }
+    
+    
+    .box1_content h1{
+        width: 80%;
+        font: Bold 2.4vw Helvetica;
+        padding-left: 10%;
+    }
+    
+    .box1_content p{
+        margin-left: 10%;
+        text-decoration: underline;
+        font: lighter 1.2vw Helvetic;
+    
+    }
+    .change{
+        width: 70%;
+        margin-top: 0%;
+    }
+    
+    
+    .change h1{
+        font: Bold 5.5vw Flood;
+        color: #FFFFFF;
+    }
+    
+    .action{
+        display: grid;
+        grid-template-rows: 20% 80%;
+        width: 100%;
+        background: #C1F7D5 0% 0% no-repeat padding-box;
+    } 
+    
+    .action_flex{
+        display: grid;
+        padding: 0.5% 0% 2% 0%;
+        margin-left: 5%;
+        margin-right: 5%;
+        grid-template-columns: 25% 25% 25% 25%;
+    }
+    
+    .act{
+        position: relative;
+        bottom: 45%;
+        width: 11%;
+        height: 82%;
+        background: #354463 0% 0% no-repeat padding-box;
+        margin-left: 47%;
+        padding-bottom: 0.45%;
+    }
+    
+    .act p{
+        text-align: center;
+        font-size: 1vw;
+        color: #FFFFFF;
+        opacity: 1;
+    } 
+    .action_box{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    
+    .action_box h1{
+        font-size: 125%;
+    }
+    
+    .action_box p{
+        font-size: 90%;
+    } 
+    
+    .sec_3{
+        display: grid;
+        grid-template-rows: 15% 30% 55%;
+        height: 67rem;
+        background: #354463 0% 0% no-repeat padding-box;
+        padding-bottom: 5%;
+    }
+    
+    .s3_box1{
+        width: 8.5%;
+        height: 23%;
+        background-color: #FFFFFF;
+        margin-left: 10%;
+        margin-top: 10%;
+    }
+    .s3_box1 p{
+        font-size: 1vw;
+        margin-top: 12%;
+        margin-left: 12%;
+    }
+    .s3_p2{
+        padding-top: 3%;
+        margin-left: 15%;
+        width: 85%;
+        text-align: left;
+        font: Bold 230% Helvetica;
+        color: #FFFFFF;
+    } 
+    
+    .s3_h{
+        width: 70%;
+        height: 87%;
+        background-color: #FFFFFF;
+        margin-left: 17%;
+        display: grid;
+        grid-template-rows: 40% 60%;
+    }
+    
+    .s3_box2{
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    
+    .s3_i1{
+        position: relative;
+        left: 20%;
+        bottom: 20%;
+        width: 100%;
+        background-image: url('../img/home/tree-planting.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    
+    }
+    
+    .s3_i2{
+        position: relative;
+        left: 20%;
+        bottom: 20%;
+        width: 100%;
+        background-image: url('../img/home/education-training.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .s3_i3{
+        position: relative;
+        left: 20%;
+        bottom:20%;
+        width: 100%;
+        background-image: url('../img/home/advocacy.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .s3_h2{
+        width: 100%;
+        display: grid;
+        grid-template-rows: 20% 47% 20%;
+    
+    }
+    .s3_h2 h1{
+        margin-left: 13%;
+        font: Bold 2vw Helvetica;
+    }
+    
+    .s3_h2 p{
+        width: 80%;
+        height: 60%;
+        padding-top: 5%;
+        margin-left: 13%;
+        font: lighter 1.2vw Helvetica;
+    }
+    
+    .s3_h2 h2{
+        height: 30%;
+        width: 50%;
+        background: #C1F7D5 0% 0% no-repeat padding-box;
+        border-radius: 100px;
+        text-align: center;
+        font: Bold 1.2vw Helvetica;
+        margin-left: 13%; 
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    .section_4{
+        background-image: url('../img/home/did-you-know-background.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        padding: 5% 0% 5% 0%;
+        position: relative;
+    
+    }
+    .sec4_1{
+        width: 70%;
+        margin-top: 20%;
+        margin-left: 20%;
+    }
+    
+    .P_hunger p{
+        font-family: Flood;
+        font-size: 4.5vw;
+        color: #FFFFFF;
+    }
+    
+    .sec4_b{
+        width: 10vw;
+        background: #C1F7D5 0% 0% no-repeat padding-box;
+        border-radius: 100px;
+        padding:  0.1% 0% 0.1% 5%;
+    }
+    
+    .sec4_b p{
+        font: Bold 1.2vw Helvetica;
+        color: #354463;
+    }
+    
+    .sec4_1 a{
+        text-decoration: none;
+    }
+    
+    .sec4_2{
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-gap: 4%;
+        padding-bottom: 15%;
+    }
+    
+    .sec4_2 > div{
+        margin-left: 5%;
+        width: 75%;
+        height:17vw;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+    }
+    
+    .sec4_box{
+        display: grid;
+        grid-template-columns: 4fr 1fr;
+    }
+    .sec4_box1 > div {
+        display: grid;
+        grid-template-rows: 0.1fr 0.15fr;
+    }
+    
+    .sec_a{
+        position: relative;
+        bottom: 7.5%;
+        width: 40%;
+        height: 15%;
+        background: #354463 0% 0% no-repeat padding-box;
+        margin-left: 20%;
+    }
+    
+    .sec_a p{
+        text-align: center;
+        font: normal 1vw Helvetica;
+        /* letter-spacing: 0.56px; */
+        color: #FFFFFF;
+    }
+    
+    .sec_b h1{
+        margin-left: 10%;
+        font: Bold 2.4vw Helvetica;
+        
+    }
+    
+    .sec_b p{
+        margin-top: 0%;
+        margin-left: 10%;
+        width: 70%;
+        font: normal 1.4vw Helvetica;
+        /* color: rgb(24, 22, 22);
+        opacity: 1; */
+    }
+    
+    .sec_c{
+        padding-top: 12%;
+    }
+    
+    .sec_c h1{
+        margin-left: 10%;
+        font: Bold 2.4vw Helvetica;
+    }
+    
+    .sec_c p{
+        margin-left: 10%;
+        width: 70%;
+        font: normal 1.4vw Helvetica;
+        color: rgb(24, 22, 22);
+        opacity: 1;
+    }
+    .tlogo{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+    }
+    .twitter{
+        margin-top: 70%;
+    }
+    .section_5{
+        width: 100%;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        display: grid;
+        grid-template-columns: 45% 55%;
+        padding: 5% 0% 10% 0%;
+    }
+    
+    .sec5_1a{
+        position: relative;
+        top: 15%;
+        left: 25%;
+        width: 85%;
+        padding-bottom: 5%;
+        background: #354463 0% 0% no-repeat padding-box;
+    
+    }
+    
+    .sec5_1b{
+        width: 25%;
+        background: #C1F7D5 0% 0% no-repeat padding-box;
+        border-radius: 100px;
+        text-align: center;
+        font: Bold 1.5vw Helvetica;
+        margin-left: 25%;
+        margin-top: 25%;
+        padding-bottom: 0.01%;
+    }
+    .sec5_1b p{
+        padding-top: 8%;
+    }
+    .sec5_1 a{
+        text-decoration: none;
+    }
+    
+    .sec5_1a h1{
+        margin-left: 10%;
+        padding-top: 10%;
+        padding-right: 10%;
+        font: Bold 2.4vw Helvetica;
+        color: #FFFFFF;
+    }
+    .sec5_1a p{
+        margin-left: 10%;
+        margin-right: 10%;
+        font: normal 0.9vw Helvetica;
+        color: #FFFFFF;
+    }
+    
+    .sec5_2b{
+        width: 80%;
+        height: 90%;
+        background-image: url('../img/home/lady-baby.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .sec5_2a{
+        position: relative;
+        width: 20%;
+        height: 40px;
+        background: #354463 0% 0% no-repeat padding-box;
+        text-align: center;
+        font: normal 0.9vw Helvetica;
+        color: #FFFFFF;
+        top: 2.8%;
+        left: 13%;
+    }
+    .sec5_2a p{
+        padding-top: 8%;
+    }
+    
+    .section_6{
+        width: 100%;
+        height: auto;
+        background: #354463 0% 0% no-repeat padding-box;
+        display: grid;
+        grid-template-rows: 20% 40% 40%;
+        padding: 2% 0% 10% 0%;
+    }
+    
+    .sec6_1{
+        width: 70%;
+        height: 20%;
+        font: normal 4.5vw Flood;
+        color: #FFFFFF;
+        margin-top: 1%;
+        margin-left: 10%;
+    }
+    
+    .sec6_2{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .sec6_3{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 8%;
+    }
+    
+    .sec6_2a{
+        width:90%;
+        height: 95%;
+        margin-top: 5%;
+        margin-left: 20%;
+        background-image: url('../img/home/tree-planting\ desk.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    sec6_2b{
+        width: 70%;
+        height: auto;
+        margin: 0% 0% 0% 20%;
+    }
+    .sec6_b1{
+        width: 18%;
+        height: 6.2%;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        margin-left: 15%;
+        text-align: center;
+        font: normal 85% Helvetica;
+    }
+    .sec6_b1 p{
+        padding-top: 7%;
+    }
+    
+    .sec6_h{
+        width: 70%;
+        font: Bold 3vw Helvetica;
+        color: #FFFFFF;
+        margin-left: 15%;
+        margin-top: 7%;
+    }
+    
+    .sec6_p{
+        width: 60%;
+        font: lighter 1.4vw Helvetica;
+        color: #FFFFFF;
+        margin-left: 15%;
+        
+    }
+    
+    .sec6_2b a{
+        text-decoration: none;
+    }
+    
+    .sec6_b2{
+        width: 20%;
+        height: 7%;
+        background: #C1F7D5 0% 0% no-repeat padding-box;
+        border-radius: 100px;
+        margin-left: 15%;
+        margin-top: 7%;
+        text-align: center;
+        font: Bold 1.3vw Helvetica;
+    }
+    .sec6_b2 p{
+        padding-top: 7%;
+    }
+    
+    
+    .sec6_2c{
+        width: 80%;
+        margin-left: 20%;
+    }
+    .sec6_h2{
+        width: 60%;
+        font: Bold 2.2vw Helvetica;
+        color: #FFFFFF;
+        margin-top: 7%;
+    }
+    
+    .sec6_p2{
+        width: 60%;
+        font: lighter 1.3vw Helvetica;
+        color: #FFFFFF;
+    }
+    
+    .sec6_b3{
+        width: 24%;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        text-align: center;
+        font: normal 1.2vw Helvetica;
+        padding-bottom: 0.005%;
+    }
+    
+    .sec6_b3 p{
+        padding-top: 7.5%;
+    }
+    
+    .sec6_2c a{
+        text-decoration: none;
+        
+    }
+    
+    .sec6_b4{
+        width: 24%;
+        background: #C1F7D5 0% 0% no-repeat padding-box;
+        border-radius: 100px;
+        margin-top: 7%;
+        text-align: center;
+        font: Bold 1.4vw Helvetica;
+    }
+    .sec6_b4 p{
+        padding-top: 7%;
+        padding-bottom: 7%;
+    }
+    
+    
+    .sec6_2d{
+        width: 90%;
+        height: 95%;
+        background-image: url('../img/home/meeting\ desk.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    /* secton  7 */
+    .section_7{
+        width: 100%;
+        background: #C1F7D5 0% 0% no-repeat padding-box;
+        display: grid;
+        grid-template-columns: 45% 55%;
+    }
+    
+    .sec7_1{
+        font: Bold 1.8vw Helvetica;
+        margin: 5% 0% 5% 18%;
+    }
+    
+    .sec7_2{
+        display: grid;
+        grid-template-columns: 65% 35%;
+    }
+    
+    input[type=text]{
+        margin-top: 12%;
+        margin-left: 20%;
+        width: 65%;
+        height: 48px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        border-radius: 100px;
+        padding-left: 8%;
+        font-size: 1.2vw;
+    }
+    .sec7_2 a{
+        text-decoration: none;
+    }
+    
+    .sec7_p{
+        width:60%;
+        margin-top: 22%;
+        margin-left: 3%;
+        background: #354463 0% 0% no-repeat padding-box;
+        border-radius: 100px;
+        text-align: center;
+        padding-top: 0.001rem;
+        padding-bottom: 0.01%;
+        font: Bold 1.4vw Helvetica;
+        color: #C1F7D5;
+    }
+    
+    /* ***** footer */
+     .container {
+        margin: 0 6% 0 6%;
+        width: 88%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+     .footer_box{
+        padding: 3% 0% 2% 0%;
+    }
+
+    footer {
+        width: 100%;
+        margin-bottom: 3vw;
+        padding-top: 2vw;
+    }
+
+    .fheader {
+        width: 20%;
+        height: 100%;
+        font-size: 2vw;
+        text-align: left;
+    }
+
+    .fhead {
+        margin-left: 5%;
+        width: 13%;
+        height: auto;
+        align-content: center;
+        font: normal 1.2vw Helvetica;
+    }
+
+
+    .links {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .change {
+        width: 20%;
+        font-family: flood;
+        font-size: 3vw;
+        text-align: end;
+    }
+
+    
+    
+    
+}
+/* **************************************************************mobile******************************************* */
+
+@media /*(min-width: 376px) and*/ (max-width: 768px){
+    @font-face {
+        font-family: "Flood";
+        src: url(../Fonts/FloodStd.otf);
+        font-style: normal;
+        font-weight: normal;
+      }
+    
+    body{
+        font-weight: normal;
+        font-family: Helvetica, sans-serif;
+        letter-spacing: 0;
+        color: #354463;
+        opacity: 1; 
+        font-size: 1.8vw;
+    }
+    #header_1{
+        width: 100%;
+        padding: 7% 0% 7% 0%;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+    }
+    #header_1{
+        display: grid;
+        grid-template-rows: 2.2fr 0.8;
+    }
+
+    .header_flex{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
+    .logo_head{
+        width: 70%;
+        padding-left: 30%;
+        font-size: 20px;
+        font-weight: bold;
+    } 
+    
+    .navi{
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-gap: 10%;
+        padding-left: 25%;
+        text-decoration: none;
+        font: lighter 16px Helvetica;
+    }
+    #header_1 a{
+        text-decoration: none;
+    }
+
+    .donation{
+        width: 70%;
+        background: #C1F7D5 0% 0% no-repeat padding-box;
+        border-radius: 100px;
+        margin: 5% 0% 0% 15%;
+        padding: 0.01% 0% 0.01% 0%;
+        text-align: center;
+        font-weight: bold;
+        font-size: 18px;
+    }
+    .imgg{
+        width: 100%;
+        background-image: url('../img/home/annie-spratt-135307-mobile.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        opacity: 0.76;
+        padding: 10% 0% 10% 0%;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+    }
+    .box1{
+        width: 80%;
+        padding: 0% 0% 8% 0%;
+        background: #FFFFFF;
+        margin-left: 10%;
+    }
+    .issue{
+        position: relative;
+        left: 20%;
+        bottom: 1rem;
+        width: 20%;
+        padding:0.001rem;
+        text-align: center;
+        background: #354463 0% 0% no-repeat padding-box;
+        color: #FFFFFF;
+        font-size: 2vw;
+    }
+    .box1_content h1{
+        width: 80%;
+        margin-left: 10%;
+        text-align: center;
+        font: Bold 3.5vw Helvetica;
+    }
+    .box1_content p{
+        text-align: center;
+        text-decoration: underline;
+    }
+
+    .change h1{
+        width: 30%;
+        text-align: left;
+        font-weight: normal;
+        font-size: 7vw;
+        font-family: Flood;
+        color: #FFFFFF;
+        margin: 5% 10% 35% 10%;
+    }
+    .action{
+        display: grid;
+        grid-template-rows: 1fr 6fr;
+        width: 100%;
+        background: #C1F7D5 0% 0% no-repeat padding-box;
+        padding-bottom: 5%;
+    }
+    .act{
+        position: relative;
+        text-align: center;
+        bottom: 1rem;
+        width: 20%;
+        /* height: 35px; */
+        background: #354463 0% 0% no-repeat padding-box;
+        margin-left: 40%;
+        color: #FFFFFF;
+    }
+    .action_box{
+        width: 60%;
+        padding: 0% 0% 0% 20%;
+    }
+
+    .action_flex{
+        display: grid;
+        grid-template-columns: 50% 50%;  
+    }
+    .action_box h1{
+        font: Bold 3vw Helvetica;
+    }
+
+    .action_box p{
+        font-size: 2.3vw;
+    }
+
+    /* ****** section 3***** */
+
+    .sec_3{
+        display: grid;
+        grid-template-rows: 0.8fr 1.2fr 12.5fr;
+        width: 100%;
+        padding: 5% 0% 10% 0%;
+        /* height: 1728px; */
+        background: #354463 0% 0% no-repeat padding-box;
+    }
+    .s3_box1{
+        position: relative;
+        width: 15%;
+        height: 2.4rem;
+        background-color: #FFFFFF;
+        text-align: center;
+        margin: 7% 0% 0% 15%;
+    }
+    .s3_p2 p{
+        width: 65%;
+        text-align: center;
+        font: Bold 4.2vw Helvetica;
+        color: #FFFFFF;
+        margin: 5% 0% 0% 20%;
+    }
+
+    .s3_h{
+        width: 75%;
+        background-color: #FFFFFF;
+        margin-left: 12.5%;
+        text-align: center;
+        display: grid;
+        grid-template-rows: 1.8fr 1.5fr ;
+    }
+
+    .s3_box2{
+        display: grid;
+        margin-top: 20%;
+        grid-template-rows:1fr 1fr 1fr;
+        grid-gap: 7%;
+    }
+    .imgc{
+        position: relative;
+        left: 10%;
+        bottom: 20%;
+        width: 80%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .s3_i1{
+        background-image: url('../img/home/tree-planting.png');
+    }
+
+    
+    .s3_i2{
+        background-image: url('../img/home/education-training.png');
+    }
+    
+    .s3_i3{
+        background-image: url('../img/home/advocacy.png');
+    }
+
+    .s3_h h1{
+        width: 80%;
+        font: Bold 3.5vw Helvetica;
+        margin-left: 10%;
+    }
+
+    .s3_h p{
+        width: 70%;
+        /* height: 70%; */
+        margin-left: 15%;
+        font: lighter 2.2vw Helvetica;
+    }
+    .s3_h h2{
+        position: relative;
+        margin-left: 30%;
+        width: 33%;
+        background: #C1F7D5 0% 0% no-repeat padding-box;
+        border-radius: 100px;
+        text-align: center;
+        font: Bold 2.5vw Helvetica;
+        padding: 2.5%;
+    }
+
+    .section_4{
+        width: 100%;
+        background-image: url('../img/home/Did\ you\ know\ background\ mobile.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        opacity: 0.76;
+        display: grid;
+        grid-template-rows:1fr 3.5fr;
+        padding:10% 0% 10% 0%;
+    }
+    .P_hunger p{
+        width: 40%;
+        font: normal 7vw Flood;
+        color: #FFFFFF;
+        margin: 5% 0% 0% 10%;
+    }
+    .sec4_b{
+        width: 25%;
+        padding: 0.1%;
+        text-align: center;
+        background: #C1F7D5 0% 0% no-repeat padding-box;
+        border-radius: 100px;
+        margin: 2% 0% 0% 10%;
+        font: Bold 2.2vw Helvetica;
+    }
+    .sec4_1 a{
+        text-decoration: none;
+    }
+    .sec4_2{
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        /* grid-gap: 0.5%;  */
+    }
+    .sec4_2 > div{
+        margin-top: 10%;
+        width: 70%;
+        height: 78%;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        margin-left: 15%;
+    }
+    .sec4_box{
+        display: grid;
+        grid-template-columns: 5fr 1fr;
+    }
+    .sec4_box1{
+        display: grid;
+        grid-template-rows: 0.5fr 2fr;
+    }
+    .sec_a{
+        position: relative;
+        top: -20px;
+        width: 30%;
+        background: #354463 0% 0% no-repeat padding-box;
+        margin-left: 20%;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .sec_b h1{
+        margin-left: 15%;
+        font: Bold 24px/28px Helvetica;
+    }
+    .sec_b p{
+        margin-left: 15%;
+        width: 70%;
+        font: normal 16px Helvetica;
+    }
+    
+    .sec_c h1{
+        margin-top: 17%;
+        margin-left: 15%;
+        font: Bold 24px Helvetica;
+    }
+    .sec_c p{
+        margin-left: 15%;
+        width: 70%;
+        font: normal 16px Helvetica;
+    }
+    .tlogo{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+    }
+    .twitter{
+        margin-top: 90%;
+    }
+    /****************** section 5 mob *****************/
+    .section_5{
+        width: 100%;
+        display: flex;
+        /* margin-bottom: 84px; */
+        flex-direction: column-reverse;
+    }
+    .sec5_1a{
+        width: 80%;
+        background: #354463 0% 0% no-repeat padding-box;
+        margin-left: 10%;
+        margin-bottom: 20px;
+        padding: 10% 0% 10% 0%;
+    }
+    .sec5_1a h1{
+        width: 80%;
+        margin-left: 10%;
+        text-align: center;
+        font: Bold 5vw Helvetica;
+        color: #FFFFFF;
+    }
+    .sec5_1a p{
+        margin-left: 10%;
+        width: 80%;
+        text-align: center;
+        font: normal 13px Helvetica;
+        color: #FFFFFF;
+    }
+    .sec5_2b{
+        margin: 15% 0% 10% 10%;
+        width: 80%;
+        height: 70vw;
+        background-image: url('../img/home/lady-baby\ mob.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .sec5_2a{
+        position: relative;
+        width: 15%;
+        background: #354463 0% 0% no-repeat padding-box;
+        text-align: center;
+        letter-spacing: 0.56px;
+        color: #FFFFFF;
+        top: 9.3em;
+        left: 20%;
+    }
+    .sec5_2a p{
+        padding: 5%;
+    }
+    .sec5_1b{
+        position: relative;
+        left: 38%;
+        width: 22%;
+        background: #C1F7D5 0% 0% no-repeat padding-box;
+        border-radius: 100px;
+        text-align: center;
+        font: Bold 2vw Helvetica;
+        margin-bottom: 10%;
+    }
+
+    .sec5_1b p{
+        padding: 10%;
+    }
+    .sec5_1 a{
+        text-decoration: none;
+    }
+
+    /* ***************************section 6 mab *************** */
+    .section_6{
+        position: relative;
+        width: 100%;
+        background: #354463 0% 0% no-repeat padding-box;
+        display: grid;
+        grid-template-rows: 0.5fr 2fr 2fr;
+    }
+    .sec6_1{
+        width: 80%;
+        text-align: center;
+        font: normal 6.5vw Flood;
+        color: #FFFFFF;
+        margin-left: 10%;
+        padding: 5% 0% 10% 0%;
+    }
+    .sec6_2a{
+        width: 80%;
+        height: 70vw;
+        margin-left: 10%;
+        background-image: url('../img/home/tree-planting1mob.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .sec6_b1{
+        position: relative;
+        left: 15%;
+        bottom: 38.7em;
+        width: 15%;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        margin-left: 40px;
+        text-align: center;
+        font: normal 14px Helvetica;
+    }
+    .sec6_b1 p{
+        padding: 8px;
+    }
+    .sec6_h1{
+        width: 80%;
+        text-align: center;
+        font: Bold 5vw Helvetica;
+        color: #FFFFFF;
+        margin-left: 10%;
+    }
+    .sec6_p1{
+        width: 70%;
+        margin-left: 15%;
+        text-align: center;
+        font: lighter 2.9vw Helvetica;
+        color: #FFFFFF;
+    }
+    .sec6_2b a{
+        text-decoration: none;
+    }
+
+    .sec6_b2{
+        width: 30%;
+        background: #C1F7D5 0% 0% no-repeat padding-box;
+        border-radius: 100px;
+        margin-left: 35%;
+    }
+    .sec6_b2 p{
+        text-align: center;
+        font: Bold 18px/22px Helvetica;
+        padding: 7%;
+    }
+    .sec6_3{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .sec6_2d{
+        width: 80%;
+        height: 70vw;
+        margin-left: 10%;
+        background-image: url('../img/home/tree-planting1mob.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .sec6_b4{
+        width: 30%;
+        background: #C1F7D5 0% 0% no-repeat padding-box;
+        border-radius: 100px;
+        margin-left: 35%;
+    }
+    .sec6_b4 p{
+        text-align: center;
+        font: Bold 18px/22px Helvetica;
+        padding: 7%;
+    }
+    .sec6_2c a{
+        text-decoration: none;
+    }
+
+    /* **************section 7 mob *********************** */
+    .section_7{
+        width: 100%;
+        /* height: 255px; */
+        background: #C1F7D5 0% 0% no-repeat padding-box;
+        display: grid;
+        grid-template-rows: 52% 48%;
+        padding:3% 0% 8% 0% ;
+    }
+
+    .sec7_1{
+        width: 70%;
+        font: Bold 3.2vw Helvetica;
+        margin-left: 16%;
+    }
+
+    .sec7_2{
+        display: grid;
+        grid-template-columns: 70% 30%;
+    }
+
+    .sec7_ip{
+        margin-top: 3%;
+        margin-left: 22%;
+    }
+
+    input[type=text]{
+        width: 80%;
+        height: 80%;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        border-radius: 100px;
+        padding-left: 10%;
+        font-size: 3vw;
+    }
+
+    .sec7_2 a{
+        text-decoration: none;
+    }
+    
+    .sec7_p{
+        width: 60%;
+        background: #354463 0% 0% no-repeat padding-box;
+        border-radius: 100px;
+        padding: 0.7%;
+        text-align: center;
+        margin: 10% 0% 0% 3%;
+        font: Bold 1.8vw Helvetica;
+        color: #C1F7D5;
+    }
+
+    footer {
+        width: 100%;
+        /* margin-bottom: 3vw;
+        padding-top: 2vw; */
+    }
+
+     .footer_box{
+        width: 80%;
+        margin-left: 20%;
+        margin-bottom: 3vw;
+        padding-top: 3%;
+        display: flex;
+        flex-flow: initial;
+        flex-wrap: wrap;
+    }
+    .fheader {
+        width: 50%;
+        height: 100%;
+        font-size: 3vw;
+        text-align: left;
+        /* margin-top: 10%; */
+    }
+    .fhead {
+        width: 50%;
+        height: auto;
+        align-content: center;
+        font: normal 2.2vw Helvetica;
+        margin-bottom: 3%;
+    }
+
+    .fhead p{
+        font-size: 2vw;
+    }
+    .links {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .change {
+        position: relative;
+        left: 6rem;
+        width: 30%;
+        text-align: right;
+        font-family: flood;
+        font-size: 6vw;
+    }
+    
+    
+    
+
+}
+
+/* *************************************************tab********************************************************* */
+
+
+@media only screen  and (min-width: 768px) and  (max-width: 991px){
+    @font-face {
+        font-family: "Flood";
+        src: url(../Fonts/FloodStd.otf);
+        font-style: normal;
+        font-weight: normal;
+      }
+    body{
+        max-width: 100%;
+        font-family: Helvetica, sans-serif;
+        color: #354463;
+        opacity: 1;
+        text-align: left;
+        font-size: 1.8vw;
+    }
+    #header_1{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        padding: 1% 0% 1% 0%;
+    }
+
+    .header_flex{
+        display: grid;
+        grid-template-rows: 66% 34%;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+    }
+    .logo_head{
+        width: 40%;
+        margin-left: 10%;
+        font-size: 2.2vw;
+        font-weight: bold;
+    }
+
+    .navi{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 1px;
+        margin-top: 1%;
+        margin-left: 10%;
+        font: lighter 1.8vw Helvetica;
+    }
+
+    #header_1 a{
+        text-decoration: none;
+    }
+    .donation{
+        width:60%;
+        background: #C1F7D5 0% 0% no-repeat padding-box;
+        border-radius: 100px;
+        margin: 15% 0% 0% 8%;
+        padding: 0.05vw 0vw 0.1vw 0vw;
+    }
+
+    .donation p{
+        font-weight: bold;
+        font-size: 1.7vw;
+        margin-left: 12%;   
+    } 
+
+    .imgg{
+        width: 100%;
+        background-image: url('../img/home/annie-spratt-135307-unsplash\ tab.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        opacity: 0.96;
+        padding: 7% 0% 10% 0%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .box1{
+        width: 70%;
+        background: #FFFFFF;
+        margin: 0% 0% 0% 15%;
+        padding: 2% 0% 5% 0%;
+    }
+    .issue{
+        position: relative;
+        left: 10%;
+        width: 20%;
+        bottom: 3rem;
+        background: #354463 0% 0% no-repeat padding-box;
+    }
+
+    .issue_p{
+        margin-left: 10%;
+        padding:8%;
+        font: normal 1.2vw Helvetica;
+        color: #FFFFFF;  
+    }
+
+    .box1_content h1{
+        width: 80%;
+        font: Bold 3.1vw Helvetica;
+        margin-left: 10%;
+        margin-top: 0px;
+    }
+
+    .box1_content p{
+        text-decoration: underline;
+        font: lighter 1.7vw Helvetica;
+        margin-left: 10%;
+    }
+    .change{
+        width: 50%;
+        margin-left: 15%;
+    }
+    .change h1{
+        font: normal 7vw Flood;
+        color: #FFFFFF;
+    }
+    .action{
+        display: grid;
+        grid-template-rows: 1fr 7fr;
+        width: 100%;
+        background: #C1F7D5 0% 0% no-repeat padding-box;
+    }
+    .act{
+        position: relative;
+        bottom: 45%;
+        width: 20%;
+        background: #354463 0% 0% no-repeat padding-box;
+        margin-left: 39%;
+    }
+    .act p{
+        text-align: center;
+        font: normal 1.4vw Helvetica;
+        letter-spacing: 0.56px;
+        color: #FFFFFF;
+    }
+    .action_box{
+        width: 100%;
+    }
+
+    .action_flex{
+        display: grid;
+        grid-template-columns: 55% 45%;
+        margin: 0% 5% 5% 6%;
+    }
+
+    .action_box h1{
+        font: Bold 2.5vw Helvetica;
+        margin-left: 7%;
+    }
+
+    .action_box p{
+        width: 70%;
+        font: lighter 1.6vw Helvetica;
+        margin-left: 7%;
+    }
+
+    .sec_3{
+        display: grid;
+        grid-template-rows: 0.5fr 1.2fr 6fr;
+        width: 100%;
+        padding-bottom: 10%;
+        background: #354463 0% 0% no-repeat padding-box;
+    }
+
+    .s3_box1{
+        width: 12%;
+        background-color: #FFFFFF;
+        margin-left: 10%;
+        margin-top: 10%;
+    }
+
+    .s3_box1 p{
+        font-size: 1.3vw;
+        margin-left: 10%;
+    }
+
+    .s3_p2 p{
+        margin: 7% 10% 2% 10%;
+        width: 81%;
+        font: Bold 3.8vw Helvetica;
+        color: #FFFFFF;
+    }
+
+    .s3_h{
+        margin-left: 10%;
+        width: 75%;
+        height: 78%;
+        padding: 2% 0% 2% 0%;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .s3_box2{
+        display: grid;
+        margin-top: 7%;
+        grid-template-rows:1fr 1fr 1fr;
+        grid-gap: 5%;
+    }
+
+    .imgc{
+        position: relative;
+        left: 12%;
+        bottom: 22%;
+        width: 90%;
+        height: 80%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .s3_i1{
+        background-image: url('../img/home/tree-planting.png');
+    }
+
+    
+    .s3_i2{
+        background-image: url('../img/home/education-training.png');
+    }
+    
+    .s3_i3{
+        background-image: url('../img/home/advocacy.png');
+    }
+
+    .s3_h h1{
+        width: 60%;
+        margin-top: 10%;
+        margin-left: 8%;
+        font: Bold 2.7vw Helvetica;
+    }
+    
+    .s3_h p{
+        width: 70%;
+        height: 70%;
+        margin-left: 8%;
+        font: lighter 1.7vw Helvetica;
+        
+    }
+    .s3_h h2{
+        position: relative;
+        bottom: 5%;
+        right: 42%;
+        width: 33%;
+        background: #C1F7D5 0% 0% no-repeat padding-box;
+        border-radius: 100px;
+        text-align: center;
+        font: Bold 16px/20px Helvetica;
+        padding: 4%;
+    }
+
+    .section_4{
+        width: 100%;
+        background-image: url('../img/home/Did\ you\ know\ background\ tab.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        opacity: 0.76;
+        display: grid;
+        grid-template-columns: 45% 55%;
+        padding:10% 0% 10% 0%;
+    }
+    .P_hunger{
+        width: 50%;
+        font-family: Flood;
+        font-size: 5vw;
+        color: #FFFFFF;
+        margin-left: 10%;
+    }
+    .sec4_2{
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-gap: 4%;
+        margin-right: 15%;
+        margin-bottom: 15%;
+    }
+
+    .sec4_2 > div{
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        padding: 0% 0% 10% 10%;
+    }
+    .sec4_box{
+        display: grid;
+        grid-template-columns: 4fr 1fr;
+    }
+    .sec_a{
+        position: relative;
+        bottom: 16%;
+        width: 48%;
+        background: #354463 0% 0% no-repeat padding-box;
+        margin-left: 10%;
+    }
+    .sec_a p{
+        text-align: center;
+        font: normal 1.4vw Helvetica;
+        color: #FFFFFF;
+        padding: 7px;
+    }
+    .sec_c{
+        margin-top: 10%;
+    }
+    .sec4_b{
+        width: 15vw;
+        background: #C1F7D5 0% 0% no-repeat padding-box;
+        border-radius: 100px;
+        padding:  0.1% 0% 0.1% 5%;
+        margin-left: 10%;
+    }
+     .sec4_1 a{
+        text-decoration: none;
+    }
+    
+    .sec4_b p{
+        font: Bold 2vw Helvetica;
+        color: #354463;
+    }
+
+    .tlogo{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+    }
+    .twitter{
+        /* width: 45%;
+        height: 40%;
+        border-radius: 100px;
+        background-color: bisque; */
+        margin-top: 70%;
+    }
+
+    .section_5{
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        padding-top: 5%;
+    }
+    .sec5_2b{
+        width: 70%;
+        height: 500px;
+        background-image: url('../img/home/lady-baby.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        margin-left: 10%;
+    }
+    .sec5_2a{
+        position: relative;
+        width: 20%;
+        background: #354463 0% 0% no-repeat padding-box;
+        text-align: center;
+        letter-spacing: 0.56px;
+        color: #FFFFFF;
+        top: 30px;
+        left: 15%;
+    }
+    .sec5_2a p{
+        padding: 5%;
+    }
+    .sec5_1a{
+        position: relative;
+        width: 63%;
+        padding: 1% 0% 1% 5%;
+        background: #354463 0% 0% no-repeat padding-box;
+        left: 25%;
+        bottom: 60px;
+    }
+    .sec5_1a h1{
+        padding-top: 8%;
+        width: 90%;
+        font: Bold 3vw Helvetica;
+        color: #FFFFFF;
+    }
+
+    .sec5_1a p{
+        padding-top: 10px;
+        letter-spacing: 0.56px;
+        color: #FFFFFF;
+        padding-bottom: 10%;
+    }
+
+    .sec5_1b{
+        position: relative;
+        left: 25%;
+        width: 18%;
+        background: #C1F7D5 0% 0% no-repeat padding-box;
+        border-radius: 100px;
+        text-align: center;
+        font: Bold 1.8vw Helvetica;
+    }
+
+    .sec5_1b p{
+        padding: 9%;
+    }
+    .sec5_1 a{
+        text-decoration: none;
+    }
+
+    .section_6{
+        width: 100%;
+        height: auto;
+        background: #354463 0% 0% no-repeat padding-box;
+        display: grid;
+        grid-template-rows: 1fr 2fr 2fr;
+        padding: 2% 0% 10% 0%;
+    }
+    .sec6_1{
+        width: 70%;
+        height: 20%;
+        font: normal 4.5vw Flood;
+        color: #FFFFFF;
+        margin-top: 1%;
+        margin-left: 10%;
+    }
+    .sec6_2{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .sec6_3{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 8%;
+    }
+
+    .sec6_2a{
+        width:90%;
+        height: 80%;
+        margin-top: 5%;
+        margin-left: 20%;
+        background-image: url('../img/home/tree-planting\ tab.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    sec6_2b{
+        width: 70%;
+        height: auto;
+        margin: 0% 0% 0% 20%;
+    }
+    .sec6_b1{
+        width: 18%;
+        height: 6.2%;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        margin-left: 15%;
+        text-align: center;
+        font: normal 1.3vw Helvetica;
+    }
+    .sec6_b1 p{
+        padding-top: 7%;
+    }
+    
+    .sec6_h{
+        width: 70%;
+        font: Bold 3vw Helvetica;
+        color: #FFFFFF;
+        margin-left: 15%;
+        margin-top: 7%;
+    }
+    
+    .sec6_p{
+        width: 60%;
+        font: lighter 1.7vw Helvetica;
+        color: #FFFFFF;
+        margin-left: 15%;
+        
+    }
+    
+    .sec6_2b a{
+        text-decoration: none;
+    }
+    
+    .sec6_b2{
+        width: 25%;
+        height: 7%;
+        background: #C1F7D5 0% 0% no-repeat padding-box;
+        border-radius: 100px;
+        margin-left: 15%;
+        margin-top: 9%;
+        text-align: center;
+        font: Bold 1.5vw Helvetica;
+    }
+    .sec6_b2 p{
+        padding: 12%;
+    }
+    
+    
+    .sec6_2c{
+        width: 80%;
+        margin-left: 20%;
+    }
+    .sec6_h2{
+        width: 60%;
+        font: Bold 2.9vw Helvetica;
+        color: #FFFFFF;
+        margin-top: 7%;
+    }
+    
+    .sec6_p2{
+        width: 60%;
+        font: lighter 1.7vw Helvetica;
+        color: #FFFFFF;
+    }
+    
+    .sec6_b3{
+        width: 24%;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        text-align: center;
+        font: normal 1.2vw Helvetica;
+        padding-bottom: 0.005%;
+    }
+    
+    .sec6_b3 p{
+        padding-top: 7.5%;
+    }
+    
+    .sec6_2c a{
+        text-decoration: none;
+        
+    }
+    
+    .sec6_b4{
+        width: 28%;
+        background: #C1F7D5 0% 0% no-repeat padding-box;
+        border-radius: 100px;
+        margin-top: 8%;
+        text-align: center;
+        font: Bold 1.5vw Helvetica;
+    }
+    .sec6_b4 p{
+        padding: 11.2%;
+    }
+    
+    
+    .sec6_2d{
+        width: 90%;
+        height: 95%;
+        background-image: url('../img/home/meeting\ tab.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .section_7{
+        width: 100%;
+        /* height: 255px; */
+        background: #C1F7D5 0% 0% no-repeat padding-box;
+        display: grid;
+        grid-template-rows: 52% 48%;
+        padding:3% 0% 3% 0% ;
+    }
+
+    .sec7_1{
+        width: 50%;
+        font: Bold 2.4vw Helvetica;
+        margin-left: 15%;
+    }
+
+    .sec7_2{
+        display: grid;
+        grid-template-columns: 70% 30%;
+    }
+
+    .sec7_ip{
+        margin-top: 3%;
+        margin-left: 22%;
+    }
+
+    input[type=text]{
+        width: 80%;
+        height: 48px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        border-radius: 100px;
+        padding-left: 10%;
+        font-size: 2vw;
+    }
+
+    .sec7_2 a{
+        text-decoration: none;
+    }
+    
+    .sec7_p{
+        width: 60%;
+        background: #354463 0% 0% no-repeat padding-box;
+        border-radius: 100px;
+        padding: 0.5%;
+        text-align: center;
+        margin: 7% 0% 0% 3%;
+        font: Bold 1.8vw Helvetica;
+        color: #C1F7D5;
+    }
+    footer {
+        width: 100%;
+        margin-bottom: 3vw;
+        padding-top: 2vw;
+    }
+
+    .footer_box{
+        width: 80%;
+        margin-bottom: 3vw;
+        padding-top: 2vw;
+        display: flex;
+        flex-flow: initial;
+        flex-wrap: wrap;
+    }
+    .fheader {
+        width: 50%;
+        height: 100%;
+        font-size: 3vw;
+        text-align: left;
+        margin-top: 10%;
+    }
+    .fhead {
+        width: 25%;
+        height: auto;
+        align-content: center;
+        font: normal 1.8vw Helvetica;
+    }
+    .learn{
+        position: relative;
+        margin-left: 40%;
+        left: 10%;
+    }
+    .links {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .change {
+        position: relative;
+        /* margin-top: 3%; */
+        right: 1%;
+        width: 20%;
+        font-family: flood;
+        font-size: 3vw;
+        color: black;
+    }
+    
+    
+    
+    
+ 
+}
